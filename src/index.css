@@ -44,10 +44,10 @@ body {
   /* color: var(--primary-white); */
 }
 .navLink:active, .navLink:active:focus{
-  border-top: 0.1875rem solid black;
+  border-top: 0.1875rem solid yellow;
 }
 .navLink:hover{
-  border-top: 0.1875rem solid black;
+  border-top: 0.1875rem solid yellow;
 }
 
 /* ***************** HERO ***************** */
@@ -69,6 +69,11 @@ body {
   align-items: center;
   text-align:center;
   font-family: 'Poppins', sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
 }
 
 .main-info h1{
@@ -76,4 +81,23 @@ body {
   text-transform: uppercase;
 }
 
+/* header button */
 
+.main-button{
+  border:1px solid yellow;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: black;
+  font-weight: bold;
+  margin: 2rem;
+  background-color: transparent
+}
+.main-button:hover{
+  text-decoration:none ;
+  background-color: yellow;
+  transition: 02s ease-in-out;
+}
+.name{
+  color: yellow;
+}

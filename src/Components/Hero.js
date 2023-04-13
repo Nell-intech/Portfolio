@@ -5,8 +5,8 @@ export default function Hero(){
     return(
         <div className="hero-wrapper"> 
             <div className="main-info">
-                <h1>This is a space for my hero</h1>
-                
+                <h1>Problem solving and teamwork enthusiast</h1>
+                <button className="main-button">Contact me</button>
             </div>
         </div>
     );

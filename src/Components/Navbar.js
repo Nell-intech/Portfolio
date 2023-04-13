@@ -11,7 +11,7 @@ export default function navBar1() {
   return (
     <Navbar bg="light" expand="lg">
       <Container className="container">
-        <Navbar.Brand href="/">Jeneil Henry</Navbar.Brand>
+        <Navbar.Brand className="name" href="/">Jeneil Henry</Navbar.Brand>
         {/* <FontAwesomeIcon icon={faBars} style={{color: "#0564646",}} /> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
