@@ -25,10 +25,10 @@ export default function navBar1() {
                 Instagram
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Facebook</NavDropdown.Item>
-              <NavDropdown.Divider /> */}
+              {/* <NavDropdown.Divider /> */}
               {/* <NavDropdown.Item href="#action/3.4">
                 Separated link
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

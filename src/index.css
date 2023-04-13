@@ -23,22 +23,18 @@ body {
   scroll-behavior: smooth;
  }
 
- /* hero */
+ 
 
-
-.hero{
-  color: white;
-  background-color: black;
-  height: 400px;
-}
 
 /* ***************** NAVBAR ***************** */
+
 /* .logo{
   width: 16.25rem;
 } */
 .container{
   padding: 2rem;
 }
+/* -- MENU LINKS -- */
 .navLink{
   letter-spacing: 0.075rem;
   cursor: pointer;
@@ -54,4 +50,30 @@ body {
   border-top: 0.1875rem solid black;
 }
 
-/* -- MENU LINKS -- */
+/* ***************** HERO ***************** */
+
+.hero-wrapper{
+  color: white;
+  height: 400px;
+  position: relative;
+  background-image: url(backgroundimg.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-info h1{
+  color: var(--primary-white);
+  text-transform: uppercase;
+}
+
+
