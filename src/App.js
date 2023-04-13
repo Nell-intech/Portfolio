@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import { Routes, Route} from 'react-router-dom'
+// import { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// Components folder
+import Navbar1 from './Components/Navbar';
+import Footer from './Components/Footer';
+
+// Pages folder
+import Home from './Pages/Home'
+import Projects from './Pages/Projects'
+import Contact from './Pages/Contact'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar1 />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          {/* <Route path="/projects/:symbol" element={<Project stocks={stocksData} />} /> */}
+          {/* stocks:symbol holds 1 prpject from projects */}
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+    </>
   );
 }
 

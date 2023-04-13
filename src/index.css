@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ html{
+  scroll-behavior: smooth;
+ }
+
+/* colors */
+
+.black{
+  background-color: black;
+}
+.white{
+  color: white;
+}
+.height400{
+  height: 400px;
+}
