@@ -9,7 +9,7 @@ import Footer from './Components/Footer';
 
 // Pages folder
 import Home from './Pages/Home'
-import Projects from './Pages/Projects'
+import Projects from './Pages/CurrentProject'
 import Contact from './Pages/Contact'
 
 function App() {
@@ -24,7 +24,6 @@ function App() {
           {/* stocks:symbol holds 1 prpject from projects */}
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer />
     </>
   );
 }

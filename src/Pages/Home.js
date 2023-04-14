@@ -1,12 +1,14 @@
 import Hero from "../Components/Hero";
-import Button from 'react-bootstrap/Button';
+import Cards from "../Components/Cards";
+import Footer from "../Components/Footer";
 
 export default function Home() {
-    return(
-        <div className="home">
+    return (
+        <div className="home container">
             <Hero />
-            <h1>This is the HOME PAGE BODY</h1>
-            <Button aria-controls="example-collapse-text">click</Button>
+            {/* <div className="spacer"><h1>Featured Projects</h1></div> */}
+            <Cards />
+            <Footer />
         </div>
     );
 }

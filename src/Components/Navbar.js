@@ -9,7 +9,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 export default function navBar1() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">  
       <Container className="container">
         <Navbar.Brand className="name" href="/">Jeneil Henry</Navbar.Brand>
         {/* <FontAwesomeIcon icon={faBars} style={{color: "#0564646",}} /> */}
@@ -17,7 +17,7 @@ export default function navBar1() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link className="navLink" href="/">Home</Nav.Link>
-            <Nav.Link className="navLink" href="/projects">Featured Projects</Nav.Link>
+            <Nav.Link className="navLink" href="/CurrentProjects">Current Project</Nav.Link>
             <Nav.Link className="navLink" href="/contact">Contact</Nav.Link>
             <NavDropdown title="Social Media Links" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">LinkedIn</NavDropdown.Item>
