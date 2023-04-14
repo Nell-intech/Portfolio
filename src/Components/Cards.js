@@ -19,7 +19,7 @@ export default function Cards() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">GitHub Link</small>
         </Card.Footer>
       </Card>
       <Card>
@@ -31,7 +31,7 @@ export default function Cards() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">GitHub Link</small>
         </Card.Footer>
       </Card>
       <Card>
@@ -43,7 +43,7 @@ export default function Cards() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">https://github.com/Nell-intech/Mongoose-Flights.git</small>
         </Card.Footer>
       </Card>
     </CardGroup>
