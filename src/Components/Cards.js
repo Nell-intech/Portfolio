@@ -43,7 +43,8 @@ export default function Cards() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">https://github.com/Nell-intech/Mongoose-Flights.git</small>
+          <small className="text-muted">https://github.com/Nell-intech/Portfolio.git
+</small>
         </Card.Footer>
       </Card>
     </CardGroup>
