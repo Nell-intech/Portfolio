@@ -34,6 +34,8 @@ body {
 } */
 .container{
   padding: 2rem;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 /* -- MENU LINKS -- */
 .navLink{
@@ -118,10 +120,17 @@ h1{
 
 footer{
   background-color: grey;
+  height: 50px;
 }
 .yellow{
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: yellow;
 opacity: 40%;
+}
+.grey{
+  background-color: grey;;
+}
+.top{
+  margin-top: 20px;
 }

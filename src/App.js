@@ -9,7 +9,7 @@ import Footer from './Components/Footer';
 
 // Pages folder
 import Home from './Pages/Home'
-import Projects from './Pages/CurrentProject'
+import CProject from './Pages/CProject'
 import Contact from './Pages/Contact'
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <Navbar1 />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/currentprojects" element={<CProject />} />
           {/* <Route path="/projects/:symbol" element={<Project stocks={stocksData} />} /> */}
           {/* stocks:symbol holds 1 prpject from projects */}
           <Route path="/contact" element={<Contact />} />
