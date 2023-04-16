@@ -17,7 +17,7 @@ export default function navBar1() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link className="navLink" href="/">Home</Nav.Link>
-            <Nav.Link className="navLink" href="/CurrentProjects">Current Project</Nav.Link>
+            <Nav.Link className="navLink" href="/current">Current Project</Nav.Link>
             <Nav.Link className="navLink" href="/contact">Contact</Nav.Link>
             <NavDropdown title="Social Media Links" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">LinkedIn</NavDropdown.Item>
@@ -25,10 +25,6 @@ export default function navBar1() {
                 Instagram
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Facebook</NavDropdown.Item>
-              {/* <NavDropdown.Divider /> */}
-              {/* <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item> */}
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
@@ -36,9 +32,3 @@ export default function navBar1() {
     </Navbar>
   );
 }
-
-
-
-//  <Nav.Link classNameName="navLink" href="/">Home</Nav.Link>
-//                 <Nav.Link classNameName="navLink" href="/projects">Projects</Nav.Link>
-//                <Nav.Link classNameName="navLink" href="/contact">Contact</Nav.Link>
