@@ -4,12 +4,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 //FONT AWESOME IMPORTS
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 export default function navBar1() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">  
+    <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark" >  
       <Container className="container">
         <Navbar.Brand className="name" href="/">Jeneil Henry</Navbar.Brand>
         {/* <FontAwesomeIcon icon={faBars} style={{color: "#0564646",}} /> */}

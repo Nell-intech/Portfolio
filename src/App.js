@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components folder
 import Navbar1 from './Components/Navbar';
-import Footer from './Components/Footer';
 
 // Pages folder
 import Home from './Pages/Home'
