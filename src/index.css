@@ -57,12 +57,12 @@ body {
 
 .hero-wrapper{
   color: white;
-  height: 400px;
+ 
   position: relative;
   background-image: url(backgroundimg.jpeg);
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 80vh;
   clear: both;
 }
 
@@ -107,8 +107,8 @@ body {
 }
 
 .spacer{
-height: 200px;
-background-color: yellow;
+height: 100px;
+background-color: pink;
 opacity: 40%;
 text-align:center;
 }
@@ -133,6 +133,7 @@ opacity: 70%;
 }
 .top{
   margin-top: 20px;
+  text-align: center;
 }
 
 .card{
