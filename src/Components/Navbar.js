@@ -17,7 +17,7 @@ export default function navBar1() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavLink className="navLink" href="/">Home</NavLink>
+            <NavLink className="navLink" to="/">Home</NavLink>
             <Nav.Link className="navLink" href="/about">About</Nav.Link>
             <Nav.Link className="navLink" href="/projects">Projects</Nav.Link> 
             {/* include current project in this section */}
