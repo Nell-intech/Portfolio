@@ -17,7 +17,9 @@ export default function navBar1() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link className="navLink" href="/">Home</Nav.Link>
-            <Nav.Link className="navLink" href="/current">Current Project</Nav.Link>
+            <Nav.Link className="navLink" href="/about">About</Nav.Link>
+            <Nav.Link className="navLink" href="/projects">Projects</Nav.Link> 
+            {/* include current project in this section */}
             <Nav.Link className="navLink" href="/contact">Contact</Nav.Link>
             <NavDropdown title="Social Media Links" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">LinkedIn</NavDropdown.Item>

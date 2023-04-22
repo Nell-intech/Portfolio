@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 
 export default function ContactForm() {
     return(
-        <div >
+        <div>
             <h1 className="top">If you like what you see, Contact me =) I would love to hear from you.</h1>
     <Form>
     <Form.Group className="mb-3" controlId="formBasicEmail">
