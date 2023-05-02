@@ -19,6 +19,7 @@ function About() {
                         </p>
                         {/* <Button variant="outline-primary">Call to action</Button> */}
                         <button className="main-button">Call to action</button>
+                        <button>two</button>
                     </Col>
                 </Row>
 
