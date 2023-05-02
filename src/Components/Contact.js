@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 
 export default function ContactForm() {
     return(
-        <div>
+        <div className="contains">
             <h1 className="top">If you like what you see, Contact me =) I would love to hear from you.</h1>
     <Form>
     <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -20,10 +20,12 @@ export default function ContactForm() {
         </Form.Text>
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Your Message</Form.Label>
-        <Form.Control type="text" placeholder="Send me a message =)" />
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Your Message Here..</Form.Label>
+        <Form.Control as="textarea" rows={3} />
       </Form.Group>
+
+
       <Button variant="primary" type="submit">
         Submit
       </Button>

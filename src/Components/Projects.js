@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+// Assests 
 import recipeSite from "../assests/recipesite.png"
 import studentList from "../assests/studentList.png"
 import homeCafe from "../assests/homeCafe.png"
@@ -9,7 +10,7 @@ export default function Projects() {
   return (
     <div>
 
-      <div className="">
+      <div className="contains">
         <div className="spacer"></div>
         <span>Portfolio</span>
         <h1>My Portfolio projects</h1>

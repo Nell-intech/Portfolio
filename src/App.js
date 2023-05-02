@@ -11,6 +11,7 @@ import Home from './Pages/Home'
 import Projects from './Pages/Projects'
 import Contact from './Pages/Contact'
 import Resume from './Pages/Resume';
+import About from './Pages/About';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Navbar1 />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           {/* <Route path="/projects/:symbol" element={<Project stocks={stocksData} />} /> */}
           {/* stocks:symbol holds 1 project from projects */}

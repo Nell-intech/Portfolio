@@ -2,9 +2,10 @@
 
 /* creating a variable for colors */
 
-:root{
+:root {
   --primary-white: #FFF;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -20,25 +21,21 @@ body {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
- html{
+html {
   scroll-behavior: smooth;
- }
-
- 
-
+}
 
 /* ***************** NAVBAR ***************** */
 
 /* .logo{
   width: 16.25rem;
 } */
-.container{
-  padding: 1rem;
-  padding-top: 0;
-  padding-bottom: 0;
+.contains {
+ margin: 0 .5%;
 }
+
 /* -- MENU LINKS -- */
-.navLink{
+.navLink {
   letter-spacing: 0.075rem;
   cursor: pointer;
   border-top: 0.1875rem solid transparent;
@@ -46,48 +43,51 @@ body {
   margin-left: 0.375rem;
   /* color: var(--primary-white); */
 }
-.navLink:active, .navLink:active:focus{
+
+.navLink:active,
+.navLink:active:focus {
   border-top: 0.1875rem solid yellow;
 }
-.navLink:hover{
+
+.navLink:hover {
   border-top: 0.1875rem solid yellow;
 }
 
 /* ***************** HERO ***************** */
 
-.hero-wrapper{
+.hero-wrapper {
   color: white;
   position: relative;
-  background-image: url(backgroundimg.jpeg);
+  background-image: url(assests/backgroundimg.jpeg);
   background-size: cover;
   background-position: center;
   height: 80vh;
   clear: both;
 }
 
-.main-info{
+.main-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align:center;
+  text-align: center;
   font-family: 'Poppins', sans-serif;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom:0;
+  bottom: 0;
 }
 
-.main-info h1{
+.main-info h1 {
   color: var(--primary-white);
   text-transform: uppercase;
 }
 
 /* header button */
 
-.main-button{
-  border:1px solid yellow;
+.main-button {
+  border: 1px solid yellow;
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
@@ -96,61 +96,86 @@ body {
   margin: 2rem;
   background-color: transparent
 }
-.main-button:hover{
-  text-decoration:none ;
+
+.main-button:hover {
+  text-decoration: none;
   background-color: yellow;
   transition: 02s ease-in-out;
 }
-.name{
+
+.name {
   color: yellow;
 }
-.spacer{
-height: 120px;
-background-color: var(--primary-white);
-opacity: 40%;
-text-align:center;
+
+.spacer {
+  height: 120px;
+  background-color: var(--primary-white);
+  opacity: 40%;
+  text-align: center;
 }
-h1{
+
+h1 {
   font-size: 200px;
   font-weight: bolder;
   color: black;
 }
-footer{
+
+footer {
   background-color: grey;
   height: 50px;
+  margin-top: 20px;
 }
-.yellow{
+
+.yellow {
   /* padding-top: 30px;
   padding-bottom: 30px; */
   background-color: yellow;
-opacity: 70%;
+  opacity: 70%;
 }
-.grey{
+
+.grey {
   background-color: grey;
 }
-/* .top{
-  margin-top: 20px;
-  text-align: center;
-} */
 
-.card{
+.card {
   margin-top: 30px;
 }
+
 .cardFlex {
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
 }
-.cardContainer{
+
+.cardContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align:center;
+  text-align: center;
   font-family: 'Poppins', sans-serif;
   position: absolute;
-  /* top: 0;
-  left: 0;
-  right: 0;
-  bottom:0; */
+}
+
+.bottomBr {
+  border-bottom: 2px solid black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  /* font-style: oblique; */
+  font-style: italic;
+}
+
+.resume {
+  /* text-align: center; */
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.block {
+  display: block;
 }

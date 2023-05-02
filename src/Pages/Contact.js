@@ -3,7 +3,7 @@ import Footer from "../Components/Footer";
 
 export default function Contact() {
     return(
-        <div className="container">
+        <div className="contains">
             
             <ContactForm/>
             <Footer />
