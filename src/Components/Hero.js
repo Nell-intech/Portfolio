@@ -11,7 +11,7 @@ export default function Hero(){
                 {/* <span>instagram Github link</span> */}
                 <Link className="links" to={`/resume`}> <button className="main-button">Resume</button> </Link>  
                 
-                <div className="tech-stack">Teck Stack | ( HTML CSS JS REACT BOOTSTRAP MONGODB FIGMA ICONS) </div>
+                <div className="tech-stack">Tech Stack | ( HTML CSS JS REACT BOOTSTRAP MONGODB FIGMA ICONS) </div>
             </div>
         </div>
     );

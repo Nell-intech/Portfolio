@@ -1,45 +1,44 @@
-import {Container, Row, Col,Image,Button,Card } from 'react-bootstrap';
+import { Container, Row, Col, Image, Button, Card } from 'react-bootstrap';
 import flights from "../assests/flights.png"
 import backgroundimg from "../assests/backgroundimg.jpeg"
 
+import Footer from '../Components/Footer';
 function About() {
     return (
         <div>
+            <Row>
+                <Col>
+                    <Image src={backgroundimg} />
+                    
+                </Col>
+                <Col>
+                <div className="spacer"></div>
+                    <h1 className="text-center font-weight-light">A little about me, Jeneil.</h1>
+                    <div className="spacer"></div>
+                    <p className="">I work with HTML, CSS, JavaScript, REACT, and MongoDB for full stack development. I enjoy building applications and learning new things. I began coding in 2018 out of pure curiosity and got well acquainted with CSS. JS was my achilles heal until I decided it was not going to be. Now I am focusing on become a JS developer to turn it into my greatest strength.</p>
+                    <p className="">I graduated from Software Engineering course called Per Scholas and I am truly grateful for the opportunity to participate in the program because along with building application and learning how to code I had plenty of opportunity to work on group projects where we were constantly sharing and helping one another. This experience allowed me to practice working with other, listening and building larger applications. It was truly a blessing.</p>
+                    <p className="">I am currently working on projects daily, adding new tools to my Dev belt and updating my GitHub page so please follow me and check out my work! I am happy that I have come this far and would love to learn more and hopefully change then world one day one function at a time. I look forward to hearing from you and sharing ideas.</p>
+                    {/* <Button variant="outline-primary">Call to action</Button> */}
+                    <button className="main-button">Let's Connect</button>
+                </Col>
+            </Row>
 
-            
-                <Row >
-                    <Col xs={12} md={8}>
-                        <Image src={backgroundimg} fluid rounded/>
-                    </Col>
-                    <Col xs={6} md={4}>
-                        <h1 className="font-weight-light">Tagline</h1>
-                        <p className="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, repellat. 
-                            Praesentium nemo expedita tenetur doloremque eius vitae nihil quae, iure ad dolore quod. 
-                            Expedita voluptatem illum reprehenderit minus tempore quisquam?
-                        </p>
-                        {/* <Button variant="outline-primary">Call to action</Button> */}
-                        <button className="main-button">Call to action</button>
-                        <button>two</button>
-                    </Col>
-                </Row>
-
-                <Row className="text-center">
-                    <Card>
+            {/* <Row className="text-center">
+                <Card>
                     <Card.Body>
-                    Text for card body
+                        Text for card body
                     </Card.Body>
-                    </Card>
-                </Row> 
+                </Card>
+            </Row>
 
-                <Row className="text-center">
-                    <Card>
+            <Row className="text-center">
+                <Card>
                     <Card.Body>
-                    Text for card body
+                        Text for card body
                     </Card.Body>
-                    </Card>
-                </Row> 
-
-            
+                </Card>
+            </Row> */}
+            <Footer />
         </div>
 
     );

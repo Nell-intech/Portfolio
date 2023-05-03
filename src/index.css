@@ -94,9 +94,11 @@ html {
   color: black;
   font-weight: bold;
   margin: 2rem;
-  background-color: transparent
+  background-color: transparent;
 }
-
+.left-margin{
+  margin-left: 0;
+}
 .main-button:hover {
   text-decoration: none;
   background-color: yellow;
@@ -108,7 +110,7 @@ html {
 }
 
 .spacer {
-  height: 120px;
+  height: 50px;
   background-color: var(--primary-white);
   opacity: 40%;
   text-align: center;
