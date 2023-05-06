@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-// import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 //FONT AWESOME IMPORTS
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -17,9 +17,13 @@ export default function navBar1() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="navLink" href="/">Home</Nav.Link>
+            
+            <Nav.Link className="navLink" href="/"> 
+            <NavLink to="/">Home</NavLink>
+            </Nav.Link>
+
             <Nav.Link className="navLink" href="/about">About</Nav.Link>
-            <Nav.Link className="navLink" href="/projects">Projects</Nav.Link> 
+            <Nav.Link className="navLink" href="/CurrentProject">Current Project</Nav.Link> 
             {/* include current project in this section */}
             <Nav.Link className="navLink" href="/contact">Contact</Nav.Link>
             <NavDropdown title="Social Media Links" id="basic-nav-dropdown">

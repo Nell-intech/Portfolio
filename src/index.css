@@ -64,6 +64,11 @@ html {
   height: 80vh;
   clear: both;
 }
+/* .colImg{
+  background-image: url(assests/backgroundimg3.jpeg);
+  background-size: cover;
+  background-position: center;
+} */
 
 .main-info {
   display: flex;

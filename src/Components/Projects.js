@@ -6,7 +6,7 @@ import studentList from "../assests/studentList.png"
 import homeCafe from "../assests/homeCafe.png"
 import flights from "../assests/flights.png"
 
-export default function Projects() {
+export default function CurrentProject() {
   return (
     <div>
 
@@ -113,14 +113,4 @@ export default function Projects() {
   );
 }
 
-{/* <Card>
-<Card.Img variant="top" src={  } />
-<Card.Body>
-  <Card.Title> {   } </Card.Title>
-  <Card.Text>  {   }  </Card.Text>
-</Card.Body>
-<Card.Footer>
-  <small className="text-muted">Last updated 3 mins ago</small>
-</Card.Footer>
-</Card> */}
 

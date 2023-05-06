@@ -1,11 +1,14 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import { Container } from 'react-bootstrap';
 
 
 export default function ContactForm() {
     return(
-        <div className="contains">
-            <h1 className="top">If you like what you see, Contact me =) I would love to hear from you.</h1>
+        <div>
+           <Container>
+
+           <h1 className="top">I would love to hear from you.</h1>
     <Form>
     <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Name</Form.Label>
@@ -25,12 +28,13 @@ export default function ContactForm() {
         <Form.Control as="textarea" rows={3} />
       </Form.Group>
 
-
-      <Button variant="primary" type="submit">
+      <button type="submit "className="left-margin main-button">Let's Connect</button>
+      {/* <Button variant="primary" type="submit">
         Submit
-      </Button>
+      </Button> */}
     </Form>
 
+           </Container>
         </div>
     );
 }

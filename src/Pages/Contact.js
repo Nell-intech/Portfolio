@@ -1,20 +1,30 @@
 import ContactForm from "../Components/Contact";
-import Footer from "../Components/Footer";
+import { Container, Row, Col, Image} from 'react-bootstrap';
+import backgroundimg from "../assests/backgroundimg3.jpeg"
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
-export default function Contact() {
+import Footer from '../Components/Footer';
+function About() {
     return (
-        <div className="contains">
+        <div>
+            <Container>
             <Row>
-                <Col xs={6}>xs=6</Col>
-                <Col xs={6}> <ContactForm /> </Col>
+                <Col>
+                    <div className="spacer"></div>
+                    <Image src={backgroundimg} />
+                </Col>
+                <Col>
+                    <div className="spacer"></div>
+                    <h1 className="text-center font-weight-light">Contact Me</h1>
+                    <div className="spacer"></div>
+                    <ContactForm/>
+                </Col>
             </Row>
+            </Container>
             <Footer />
         </div>
 
     );
 }
 
+
+export default About;
