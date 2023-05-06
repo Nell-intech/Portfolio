@@ -4,7 +4,7 @@ import { Routes, Route} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components folder
-import Navbar1 from './Components/Navbar';
+import Navbar from './Components/Navbar';
 
 // Pages folder
 import Home from './Pages/Home'
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <Navbar1 />
+      <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

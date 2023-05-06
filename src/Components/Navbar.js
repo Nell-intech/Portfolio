@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-export default function navBar1() {
+export default function navBar() {
   return (
     <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark" >  
       <Container className="container">
@@ -17,12 +17,14 @@ export default function navBar1() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            
+
             <Nav.Link className="navLink" href="/"> 
             <NavLink to="/">Home</NavLink>
             </Nav.Link>
 
-            <Nav.Link className="navLink" href="/about">About</Nav.Link>
+            <Nav.Link className="navLink" href="/about">
+              <NavLink to="/about">About</NavLink>
+            </Nav.Link>
             <Nav.Link className="navLink" href="/CurrentProject">Current Project</Nav.Link> 
             {/* include current project in this section */}
             <Nav.Link className="navLink" href="/contact">Contact</Nav.Link>
