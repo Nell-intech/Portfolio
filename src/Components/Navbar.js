@@ -18,12 +18,12 @@ export default function navBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
 
-            <Nav.Link className="navLink" href="/"> 
-            <NavLink to="/about">Home</NavLink>
+            <Nav.Link className="navLink" href="/"> Home
+            <NavLink  className="d-none" to="/"></NavLink>
             </Nav.Link>
 
-            <Nav.Link className="navLink" href="/about">
-              <NavLink to="/about">About</NavLink>
+            <Nav.Link className="navLink" href="/about">About
+              <NavLink className="d-none" to="/about"></NavLink>
             </Nav.Link>
             <Nav.Link className="navLink" href="/CurrentProject">Current Project</Nav.Link> 
             {/* include current project in this section */}
