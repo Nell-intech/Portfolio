@@ -19,7 +19,7 @@ export default function navBar() {
           <Nav className="me-auto">
 
             <Nav.Link className="navLink" href="/"> 
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/about">Home</NavLink>
             </Nav.Link>
 
             <Nav.Link className="navLink" href="/about">
