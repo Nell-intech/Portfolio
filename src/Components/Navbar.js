@@ -25,6 +25,7 @@ export default function navBar() {
             <Nav.Link className="navLink" href="/about">About
               <NavLink className="d-none" to="/about"></NavLink>
             </Nav.Link>
+            
             <Nav.Link className="navLink" href="/CurrentProject">Current Project</Nav.Link> 
             {/* include current project in this section */}
             <Nav.Link className="navLink" href="/contact">Contact</Nav.Link>

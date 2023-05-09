@@ -86,28 +86,7 @@ export default function CurrentProject() {
 
       <div className="">
         <div className="spacer"></div>
-        <span>Current</span>
-        <h1>I am currently working on....</h1>
       </div>
-
-      <Card border="dark" className="yellow card text-center">
-        <Card.Body>
-          <Card.Title>Home Cafe site</Card.Title>
-          <Card.Text>
-            I am currently working on a site called Home Cafe. This is a full-stack app that encourages lux cafe drinks in the comfort of your own home.
-          </Card.Text>
-        </Card.Body>
-        <Card.Img variant="top" src={homeCafe} />
-        <Card.Footer>
-          <small className="text-muted">GitHub Link</small>
-        </Card.Footer>
-      </Card>
-
-
-
-
-
-
 
     </div>
   );
