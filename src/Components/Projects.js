@@ -1,10 +1,14 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import { Container } from "react-bootstrap";
+import { Link } from 'react-router-dom'
 // Assests 
+import Footer from "../Components/Footer";
 import recipeSite from "../assests/recipesite.png"
 import studentList from "../assests/studentList.png"
 import homeCafe from "../assests/homeCafe.png"
 import flights from "../assests/flights.png"
+
 
 export default function CurrentProject() {
   return (
@@ -34,6 +38,7 @@ export default function CurrentProject() {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
+            
             <small className="text-muted">CODE  DEMO</small>
           </Card.Footer>
         </Card>
@@ -83,6 +88,54 @@ export default function CurrentProject() {
         </Card>
       </CardGroup>
 
+      <div>
+            <div>
+                <div className="">
+                    <div className="spacer"></div>
+                    {/* <span>Current</span> */}
+                    <h1>Home Cafe'</h1>
+                </div>
+                <Card border="dark" className="yellow card text-center">
+                    <Card.Body>
+                        <Card.Title>Trelo Board</Card.Title>
+                        <Card.Text>
+                            <Link rel="stylesheet" href="https://trello.com/invite/b/tP5Va2g1/ATTIfee2fc0e61caef0854ede8de548ad13bD3776D37/fullstack-cafe-app" > My Trello Board </Link>
+                        </Card.Text>
+                    </Card.Body>
+                    {/* <Card.Img variant="top" src={homeCafe} /> */}
+                    {/* <Card.Footer>
+                        <small className="text-muted">GitHub Link</small>
+                    </Card.Footer> */}
+                </Card>
+
+                <Card border="dark" className="yellow card text-center">
+                    <Card.Body>
+                        <Card.Title>Wireframe</Card.Title>
+                        <Card.Text>
+                            <Link rel="stylesheet" href="https://trello.com/invite/b/tP5Va2g1/ATTIfee2fc0e61caef0854ede8de548ad13bD3776D37/fullstack-cafe-app" > My Figma Wireframe </Link>
+                        </Card.Text>
+                    </Card.Body>
+                    {/* <Card.Img variant="top" src={homeCafe} /> */}
+                    {/* <Card.Footer>
+                        <small className="text-muted">GitHub Link</small>
+                    </Card.Footer> */}
+                </Card>
+
+                <Card border="dark" className="yellow card text-center">
+                    <Card.Body>
+                        <Card.Title>Home Cafe site</Card.Title>
+                        <Card.Text>
+                            I am currently working on a site called Home Cafe. This is a full-stack app that encourages lux cafe drinks in the comfort of your own home.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Img variant="top" src={homeCafe} />
+                    <Card.Footer>
+                        <small className="text-muted">GitHub Link</small>
+                    </Card.Footer>
+                </Card>
+
+            </div>
+        </div>
 
       <div className="">
         <div className="spacer"></div>

@@ -12,7 +12,7 @@ export default function navBar() {
   return (
     <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark" >  
       <Container className="container">
-        <Navbar.Brand className="name" href="/">J.H</Navbar.Brand>
+        {/* <Navbar.Brand className="name" href="/">J.H</Navbar.Brand> */}
         {/* <FontAwesomeIcon icon={faBars} style={{color: "#0564646",}} /> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -22,13 +22,13 @@ export default function navBar() {
             <NavLink  className="d-none" to="/"></NavLink>
             </Nav.Link>
 
-            <Nav.Link className="navLink" href="/about">About
+            {/* <Nav.Link className="navLink" href="/about">About
               <NavLink className="d-none" to="/about"></NavLink>
-            </Nav.Link>
+            </Nav.Link> */}
             
-            <Nav.Link className="navLink" href="/CurrentProject">Current Project</Nav.Link> 
+            {/* <Nav.Link className="navLink" href="/CurrentProject">Current Project</Nav.Link>  */}
             {/* include current project in this section */}
-            <Nav.Link className="navLink" href="/contact">Contact</Nav.Link>
+            {/* <Nav.Link className="navLink" href="/contact">Contact</Nav.Link> */}
             <NavDropdown title="Social Media Links" id="basic-nav-dropdown">
               <NavDropdown.Item href="https://www.linkedin.com/in/jeneil-henry/">LinkedIn</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Instagram</NavDropdown.Item>

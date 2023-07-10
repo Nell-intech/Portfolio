@@ -189,5 +189,7 @@ footer {
 
 .d-none{
  text-decoration: none;
- 
+}
+.nopadding{
+  padding: 0;
 }
