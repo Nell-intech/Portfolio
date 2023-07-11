@@ -23,7 +23,7 @@ export default function CurrentProject() {
 
       <CardGroup>
         <Card>
-            <Card.Img variant="top" src={recipeSite} />
+          <Card.Img variant="top" src={recipeSite} />
         </Card>
 
         <Card className="cardContainer">
@@ -38,15 +38,15 @@ export default function CurrentProject() {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            
-            <small className="text-muted">CODE  DEMO</small>
+
+            <small className="text-muted">VIEW ON GITHUB</small>
           </Card.Footer>
         </Card>
       </CardGroup>
 
       <CardGroup>
         <Card>
-            <Card.Img variant="top" src={studentList} />
+          <Card.Img variant="top" src={studentList} />
         </Card>
 
         <Card className="cardContainer">
@@ -61,14 +61,14 @@ export default function CurrentProject() {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">CODE  DEMO</small>
+            <small className="text-muted">VIEW ON GITHUB</small>
           </Card.Footer>
         </Card>
       </CardGroup>
 
       <CardGroup>
         <Card>
-            <Card.Img variant="top" src={flights} />
+          <Card.Img variant="top" src={flights} />
         </Card>
 
         <Card className="cardContainer">
@@ -83,59 +83,59 @@ export default function CurrentProject() {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">CODE  DEMO</small>
+            <small className="text-muted">VIEW ON GITHUB</small>
           </Card.Footer>
         </Card>
       </CardGroup>
 
       <div>
-            <div>
-                <div className="">
-                    <div className="spacer"></div>
-                    {/* <span>Current</span> */}
-                    <h1>Home Cafe'</h1>
-                </div>
-                <Card border="dark" className="yellow card text-center">
-                    <Card.Body>
-                        <Card.Title>Trelo Board</Card.Title>
-                        <Card.Text>
-                            <Link rel="stylesheet" href="https://trello.com/invite/b/tP5Va2g1/ATTIfee2fc0e61caef0854ede8de548ad13bD3776D37/fullstack-cafe-app" > My Trello Board </Link>
-                        </Card.Text>
-                    </Card.Body>
-                    {/* <Card.Img variant="top" src={homeCafe} /> */}
-                    {/* <Card.Footer>
+        <div>
+          <div className="">
+            <div className="spacer"></div>
+            {/* <span>Current</span> */}
+            <h1>Home Cafe'</h1>
+          </div>
+          <Card border="dark" className="yellow card text-center">
+            <Card.Body>
+              <Card.Title>Trelo Board</Card.Title>
+              <Card.Text>
+                <Link rel="stylesheet" href="https://trello.com/invite/b/tP5Va2g1/ATTIfee2fc0e61caef0854ede8de548ad13bD3776D37/fullstack-cafe-app" > My Trello Board </Link>
+              </Card.Text>
+            </Card.Body>
+            {/* <Card.Img variant="top" src={homeCafe} /> */}
+            {/* <Card.Footer>
                         <small className="text-muted">GitHub Link</small>
                     </Card.Footer> */}
-                </Card>
+          </Card>
 
-                <Card border="dark" className="yellow card text-center">
-                    <Card.Body>
-                        <Card.Title>Wireframe</Card.Title>
-                        <Card.Text>
-                            <Link rel="stylesheet" href="https://trello.com/invite/b/tP5Va2g1/ATTIfee2fc0e61caef0854ede8de548ad13bD3776D37/fullstack-cafe-app" > My Figma Wireframe </Link>
-                        </Card.Text>
-                    </Card.Body>
-                    {/* <Card.Img variant="top" src={homeCafe} /> */}
-                    {/* <Card.Footer>
+          <Card border="dark" className="yellow card text-center">
+            <Card.Body>
+              <Card.Title>Wireframe</Card.Title>
+              <Card.Text>
+                <Link rel="stylesheet" href="https://trello.com/invite/b/tP5Va2g1/ATTIfee2fc0e61caef0854ede8de548ad13bD3776D37/fullstack-cafe-app" > My Figma Wireframe </Link>
+              </Card.Text>
+            </Card.Body>
+            {/* <Card.Img variant="top" src={homeCafe} /> */}
+            {/* <Card.Footer>
                         <small className="text-muted">GitHub Link</small>
                     </Card.Footer> */}
-                </Card>
+          </Card>
 
-                <Card border="dark" className="yellow card text-center">
-                    <Card.Body>
-                        <Card.Title>Home Cafe site</Card.Title>
-                        <Card.Text>
-                            I am currently working on a site called Home Cafe. This is a full-stack app that encourages lux cafe drinks in the comfort of your own home.
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Img variant="top" src={homeCafe} />
-                    <Card.Footer>
-                        <small className="text-muted">GitHub Link</small>
-                    </Card.Footer>
-                </Card>
+          <Card border="dark" className="yellow card text-center">
+            <Card.Body>
+              <Card.Title>Home Cafe site</Card.Title>
+              <Card.Text>
+                I am currently working on a site called Home Cafe. This is a full-stack app that encourages lux cafe drinks in the comfort of your own home.
+              </Card.Text>
+            </Card.Body>
+            <Card.Img variant="top" src={homeCafe} />
+            <Card.Footer>
+              <small className="text-muted">GitHub Link</small>
+            </Card.Footer>
+          </Card>
 
-            </div>
         </div>
+      </div>
 
       <div className="">
         <div className="spacer"></div>
